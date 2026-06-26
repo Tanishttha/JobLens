@@ -30,10 +30,4 @@ def index():
             else:
                 prediction = f"Genuine Job Posting (There's only {confidence:.1f}% chance that this job might be fake.)"
         else:
-            prediction = "Please enter job description."
-    return render_template("index.html", prediction=prediction, job_text=job_text)
-
-if __name__ == "__main__":
-    print("Starting Flask app...")
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=True)
+            prediction 
