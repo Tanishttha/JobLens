@@ -9,7 +9,3 @@ VECTORIZER_PATH = "model/vectorizer.pkl"
 
 if not os.path.exists(MODEL_PATH) or not os.path.exists(VECTORIZER_PATH):
     raise FileNotFoundError("Model or vectorizer file not found. Please run train_model.py first.")
-
-print("Loading model and vectorizer...")
-model = joblib.load(MODEL_PATH)
-vectorizer = joblib.load(VECTORIZER_PATH)
