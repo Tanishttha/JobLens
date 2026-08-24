@@ -33,7 +33,3 @@ y_pred = model.predict(X_test)
 print("Accuracy:", accuracy_score(y_test, y_pred))
 print("Classification Report:\n", classification_report(y_test, y_pred))
 
-print("Saving model and vectorizer...")
-os.makedirs("model", exist_ok=True)
-joblib.dump(model, "model/model.pkl")
-joblib.dump(vectorizer, "model/vectorizer.pkl")
