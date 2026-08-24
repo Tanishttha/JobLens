@@ -28,5 +28,3 @@ print("Training model...")
 model = LogisticRegression(class_weight="balanced", max_iter=1000)
 model.fit(X_train, y_train)
 
-print("Evaluating model...")
-y_pred = model.predict(X_test)
