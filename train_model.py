@@ -37,6 +37,3 @@ print("Saving model and vectorizer...")
 os.makedirs("model", exist_ok=True)
 joblib.dump(model, "model/model.pkl")
 joblib.dump(vectorizer, "model/vectorizer.pkl")
-
-print("Model training complete. Files saved in /model/")
-print("Class distribution:\n", df['fraudulent'].value_counts())
