@@ -8,10 +8,3 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score
 import joblib
 
-print("Loading dataset...")
-data = pd.read_csv("fake_job_postings.csv")  
-
-print("Cleaning dataset...")
-data = data[["title", "description", "fraudulent"]]
-data = data.dropna()
-
