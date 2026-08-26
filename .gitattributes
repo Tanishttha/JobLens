@@ -1,0 +1,7 @@
+static/src/** linguist-vendored
+static/public/** linguist-vendored
+static/*.json linguist-vendored
+static/*.ts linguist-vendored
+static/*.tsx linguist-vendored
+static/*.css linguist-vendored
+static/** linguist-vendored
