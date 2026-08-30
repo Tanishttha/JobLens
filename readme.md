@@ -2,15 +2,14 @@
 <h3 align="center">
 JobLens is an AI-powered job posting scam-detection and resume-matching platform. It combines a large language model, resume parsing, and location-agnostic browser tooling to help job seekers instantly verify a posting's legitimacy, understand what a role actually requires, and see how well their own resume matches it — before they ever apply.
 </h3>
-
 <h2>Live Demo</h2>
+
 ```bash
 https://job-lensai.vercel.app
 ```
-
 <p>The backend is deployed on Render, which automatically goes to sleep after a period of inactivity. On the first visit, it may take <b>1-2 minutes</b> for the backend to wake up. Please wait briefly before using the application.</p>
 
-![System Architecture](assets/1.png)
+![System Architecture](assets/4.png)
 <h2>Features</h2>
 <h3>Job Seeker Features</h3>
 
@@ -73,7 +72,7 @@ https://job-lensai.vercel.app
 - Render (Backend)
 - Vercel (Frontend)
 
-![Project Structure](assets/2.png)
+![Project Structure](assets/3.png)
 <h2>Installation</h2>
 <h3>Clone Repository</h3>
 
@@ -155,7 +154,7 @@ http://127.0.0.1:5173
 http://127.0.0.1:8000
 ```
 <h2>Screenshots</h2>
-  <img src="assets/1.png">
+<img src="assets/1.png" style="width: 100%;">
   <img src="assets/2.png">
 
 <h2>Deployment</h2>
